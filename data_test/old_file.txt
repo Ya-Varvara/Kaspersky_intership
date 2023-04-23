@@ -1,0 +1,56 @@
+old file
+;	variant 25
+; 2  10100100 0xA4
+; 3  10110000 0xB0
+; 4  10011001 0x99
+;**********************************************************************
+.include "m8515def.inc"			
+.def temp = r16				
+.def reg_led = r20			
+
+
+.org $000
+		rjmp INIT
+
+;***Инициализация***
+INIT:
+	ldi temp, $5F			
+	out SPL,temp		
+	ldi temp, $02			
+	out SPH, temp		
+	ser temp			
+	out DDRB, temp			
+        ldi reg_led,0xFF 	
+	out PORTB, reg_led
+
+;***Основной цикл***		
+LOOP:
+
+
+	ldi reg_led, 0xA4		
+    	out PORTB, reg_led		
+	rcall DELAY     		
+
+	ldi reg_led, 0xB0 		
+   	out PORTB, reg_led		
+	rcall DELAY     		
+	
+	ldi reg_led, 0x99		
+   	out PORTB, reg_led		
+	rcall DELAY     	
+	
+	
+	rjmp LOOP
+
+
+DELAY:
+   ldi r19,10 
+m1: ldi r20,4
+m2: ldi r21,4
+m3: dec r21 
+	brne m3 
+	dec r20 
+	brne m2 
+	dec r19 
+	brne m1 
+    ret	

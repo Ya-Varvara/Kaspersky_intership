@@ -1,0 +1,5 @@
+
+  <wait_0><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>45</LINE></wait_0>
+
+
+helo world

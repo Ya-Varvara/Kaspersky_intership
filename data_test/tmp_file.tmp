@@ -1,0 +1,37 @@
+hello world
+
+
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8515</DEVICE>
+ <WORKING_DIR>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8515def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <INIT><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>17</LINE></INIT>
+  <led_on1><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>40</LINE></led_on1>
+  <led_on2><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>50</LINE></led_on2>
+  <loop><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>36</LINE></loop>
+  <delay1><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>60</LINE></delay1>
+  <wait_0><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>45</LINE></wait_0>
+  <delay2><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>72</LINE></delay2>
+  <wait_1><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>55</LINE></wait_1>
+  <d0><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>62</LINE></d0>
+  <d1><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>63</LINE></d1>
+  <d2><FILE>C:\Users\varia\Documents\University\6 SEM\MKS\lab2_2\lab2_2.asm</FILE><LINE>64</LINE></d2>
+ </LABELS>
+</ASSEMBLER_INFO>
